@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasicNavigation</string>
+    <string name="title_activity_pokemon_list">PokemonListActivity</string>
+</resources>
