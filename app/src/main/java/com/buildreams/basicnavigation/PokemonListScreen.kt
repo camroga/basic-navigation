@@ -31,7 +31,8 @@ fun PokemonList(navController: NavHostController) {
         )
         Button(
             onClick = {
-                navController.navigate(PokemonInfo.route)
+
+                navController.navigate(PokemonInfo.route+ "/10")
             },
             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFF4CE14))
         ) {

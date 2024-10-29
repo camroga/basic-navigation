@@ -7,5 +7,6 @@ object PokemonList : Destinations {
 }
 
 object PokemonInfo : Destinations {
+    const val argPokemonNo = "PokemonNo"
     override val route: String = "PokemonInfo"
 }
